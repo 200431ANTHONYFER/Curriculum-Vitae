@@ -1,0 +1,64 @@
+/* Reset básico */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* fondo azul oscuro con degradado */
+  margin: 0;
+  padding: 0;
+  color: #f4f4f4;
+}
+
+.cv-container {
+  max-width: 800px;
+  background-color: #1c1f26; /* fondo oscuro para el CV */
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #3e4e5e;
+  padding-bottom: 20px;
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid #00bcd4;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.6);
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #00bcd4;
+}
+
+.titulo {
+  font-size: 18px;
+  color: #81d4fa;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+section {
+  margin-top: 25px;
+}
+
+h2 {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.descripcion p,
+.educacion p {
+  color: #cfd8dc;
+  line-height: 1.6;
+}
